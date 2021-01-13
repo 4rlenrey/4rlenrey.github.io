@@ -1,6 +1,29 @@
 .T {
   color: black;
 }
+
+.Menu{
+  list-style-type: none;
+  padding: 0;
+  margin: top;
+  border: 3px solid rgb(90, 11, 77);
+  background-color: rgb(90, 11, 77);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.Menu li a{
+  text-decoration: none;
+  color: rgb(27, 81, 45);
+  font-size: 30px;
+}
+
+body{
+  background-color: rgb(161, 239, 139);
+}
+
 .FrameStats {
   border: none;
   width: 525px; 
