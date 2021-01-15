@@ -1,2 +1,1 @@
-
-console.log(document.getElementById("Github"))
+var delay = 500;

@@ -1,7 +1,3 @@
-.T {
-  color: black;
-}
-
 .Menu {
   list-style-type: none;
   padding: 10px;
@@ -32,18 +28,6 @@ body {
   height: 750px;
   flex-direction: column;
   align-items: center;
-}
-
-.IconText {
-  width: 100%;
-  height: 40px;
-  font-size: 30px;
-  font-weight: 110;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  left: 0;
-  bottom: 200px;
 }
 
 .FrameStats {
