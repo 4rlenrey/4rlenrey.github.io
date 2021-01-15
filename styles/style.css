@@ -1,4 +1,3 @@
-
 .Menu {
   list-style-type: none;
   padding: 10px;
@@ -7,6 +6,9 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  animation-fill-mode: both;
+  animation-duration: 2s;
+  animation-name: appear;
 }
 
 .Menu li a {
@@ -22,9 +24,10 @@ body {
 }
 
 #tt {
+  overflow: hidden;
   font-size: 60px;
   padding: 10px;
-  color:  rgb(172, 252, 217);
+  color: rgb(172, 252, 217);
   background-color: rgb(82, 43, 71);
 }
 
@@ -33,15 +36,19 @@ body {
   font-weight: 120;
 }
 
-.Desc{
+.Desc {
   position: absolute;
   top: 50%;
+  animation-fill-mode:both;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -70%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation-delay: 2s;
+  animation-duration: 3s;
+  animation-name: appear;
 }
 
 .Accounts {
@@ -50,13 +57,26 @@ body {
   width: 100%;
   height: 150px;
   position: fixed;
+  animation-fill-mode: both;
   left: 0;
   bottom: 0;
   flex-wrap: flex;
   flex-grow: 600px;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-name: appear;
 }
 
 .FrameStats {
   border: none;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
