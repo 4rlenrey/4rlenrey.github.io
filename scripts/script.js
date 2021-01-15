@@ -1,1 +1,2 @@
-var x = 8;
+
+console.log(document.getElementById("Github"))
