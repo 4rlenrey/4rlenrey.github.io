@@ -6,10 +6,9 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
 }
 
-#MainMen{
+#MainMen {
   animation-fill-mode: both;
   animation-duration: 2s;
   animation-name: appear;
@@ -25,7 +24,38 @@ body {
   color: rgb(245, 183, 0);
   text-align: center;
 }
+.TechProj{
+  font-size: 30px;
+  color: rgb(123, 8, 40);
+}
+.ImageProj {
+  width: 900px;
+  height: 500px;
+  border-radius: 25px;
+}
+a{
+  color: rgb(245, 183, 0);
+  text-decoration: none;
+}
+.openProjecr {
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgb(245, 183, 0);
+  width: 80%;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  margin: auto;
+}
 
+.TitleProj {
+  margin-left: auto;
+  margin-right: auto;
+}
+.DescProj {
+  margin: auto;
+  
+}
 #tt {
   overflow: hidden;
   font-size: 60px;
@@ -42,7 +72,7 @@ body {
 .Desc {
   position: absolute;
   top: 50%;
-  animation-fill-mode:both;
+  animation-fill-mode: both;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -70%);
