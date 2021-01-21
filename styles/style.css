@@ -7,12 +7,12 @@
   justify-content: space-around;
   flex-direction: row;
 }
-
 #MainMen {
   animation-fill-mode: both;
   animation-duration: 2s;
   animation-name: appear;
 }
+
 .Menu li a {
   text-decoration: none;
   color: rgb(172, 252, 217);
@@ -24,23 +24,15 @@ body {
   color: rgb(245, 183, 0);
   text-align: center;
 }
-.openProjecr {
-  border-style: solid;
-  border-width: 20px;
-  border-radius: 25px;
-  border-color: rgb(245, 183, 0);
-  background-color: rgb(245, 183, 0);
+
+.ImageProj {
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
-  height: 500px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
   margin-top: 30px;
-}
-.ImageProj {
-  width: 900px;
-  height: 500px;
   border-radius: 25px;
-  margin: auto;
 }
 #right {
   right: 0;
@@ -48,12 +40,18 @@ body {
 #left {
   left: 0;
 }
-#repoo{
+.link{
+  color: rgb(123, 8, 40);
+}
+.openProjecr{
+  display: none;
+}
+#repoo {
   position: absolute;
   bottom: 15px;
-  left: 15px;  
+  left: 15px;
 }
-#tech{
+#tech {
   position: absolute;
   bottom: 15px;
   right: 15px;
@@ -75,11 +73,14 @@ body {
   font-size: 25px;
   text-align: center;
 }
-a {
-  color: rgb(172, 252, 217);
+#repoo a {
+  color: rgb(245, 183, 0);
   text-decoration: none;
 }
-
+#tech a {
+  color: rgb(245, 183, 0);
+  text-decoration: none;
+}
 .TitleProj {
   margin-left: auto;
   margin-right: auto;
