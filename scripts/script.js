@@ -2,6 +2,7 @@ var slideIndex = 1;
 
 window.onload = (event) => {
 	showSlides(slideIndex);
+
 };
 
 function plusSlides(n) {
