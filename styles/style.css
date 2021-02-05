@@ -8,12 +8,18 @@
   flex-direction: row;
 }
 
+#Ive {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f6f7eb;
+}
+
 #MainMen {
   animation-fill-mode: both;
   animation-duration: 2s;
   animation-name: appear;
 }
-.logg{
+.logg {
   height: 50px;
   width: 50px;
 }
@@ -21,14 +27,12 @@
   height: 370px;
   border-radius: 25px;
 }
-
-.sectionfo {
+.sectionfor {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
+  height: 300px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(82, 43, 71);
@@ -38,7 +42,27 @@
   border-radius: 25px;
   margin-top: 30px;
 }
-
+.sectionfo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(82, 43, 71);
+  color: rgb(172, 252, 217);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+#T {
+  flex-direction: column;
+}
+#TT {
+  flex-direction: row;
+}
 .descriptionn {
   font-size: 20px;
   width: calc(100% - 440px);
