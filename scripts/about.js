@@ -10,11 +10,9 @@ window.onload = (event) => {
 		arr[step].addEventListener("mouseover", function g() {
 			document.getElementById("dos").innerHTML = arr[step].getAttribute('id');;
 		});
-
 	}
-
-
 };
+
 
 function onhovr(name) {
 	document.getElementById("dos").innerHTML = name;
