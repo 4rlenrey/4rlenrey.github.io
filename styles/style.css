@@ -1,11 +1,15 @@
-.Menu {
-  list-style-type: none;
-  display: block;
+
+#tt {
+  overflow: hidden;
+  font-size: 60px;
   padding: 10px;
+  color: rgb(172, 252, 217);
   background-color: rgb(82, 43, 71);
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+}
+
+#tl {
+  font-size: 100px;
+  font-weight: 120;
 }
 
 .namecont {
