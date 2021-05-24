@@ -20,6 +20,27 @@
   font-size: 20px;
   width: calc(100% - 440px);
 }
+.contact_field {
+  display: flex;
+  flex-direction: row;
+  width: calc(70% - 100px);
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 50px;
+  background-color: rgb(82, 43, 71);
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.contactt {
+  font-family: "Courier New";
+  color: #f6f7eb;
+  font-size: 20px;
+}
+
+.namecont {
+  color: #f6f7eb;
+  font-size: 30px;
+}
 #T {
   flex-direction: column;
   height: 300px;
