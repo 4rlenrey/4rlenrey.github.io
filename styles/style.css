@@ -17,20 +17,6 @@
   color: rgb(157, 172, 255);
 }
 
-.logg {
-  height: 50px;
-  width: 50px;
-}
-.myImg {
-  height: 370px;
-  border-radius: 25px;
-}
-
-
-.descriptionn {
-  font-size: 20px;
-  width: calc(100% - 440px);
-}
 
 .link {
   color: rgb(123, 8, 40);
@@ -65,25 +51,11 @@
   border-width: 10px;
   margin-top: 10px;
 }
-.centered{
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .bigBox{
   height: auto;
 }
-.sectionfo {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(82, 43, 71);
-  color: rgb(172, 252, 217);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 25px;
-  margin-top: 30px;
-}
+
 .TextProj {
   position: relative;
   padding: 10px;
@@ -107,21 +79,7 @@
 
 
 
-#Ive {
-  font-size: 40px;
-  font-weight: bold;
-  color: #f6f7eb;
 
-}
-
-#T {
-  flex-direction: column;
-  height: 300px;
-}
-#TT {
-  flex-direction: row;
-  height: 400px;
-}
 #right {
   right: 0;
 }

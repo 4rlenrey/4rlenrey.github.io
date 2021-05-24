@@ -9,7 +9,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
 @keyframes appear {
   from {
     opacity: 0;
