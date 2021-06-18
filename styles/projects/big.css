@@ -1,0 +1,58 @@
+.arrow {
+  position: fixed;
+  bottom: 40%;
+}
+.ImageProj {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+.TextProj {
+  position: relative;
+  padding: 10px;
+  color: rgb(172, 252, 217);
+  width: 920px;
+  height: 150px;
+  margin-left: auto;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+.openProjecr {
+  display: none;
+}
+
+.link {
+  color: rgb(123, 8, 40);
+}
+#right {
+  right: 0;
+}
+#left {
+  left: 0;
+}
+
+#repoo {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+#tech {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+#repoo a {
+  color: rgb(245, 183, 0);
+  text-decoration: none;
+}
+#tech a {
+  color: rgb(245, 183, 0);
+  text-decoration: none;
+}

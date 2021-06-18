@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(15, 14, 14);
+  color: rgb(245, 183, 0);
+  text-align: center;
+}
+
+.vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

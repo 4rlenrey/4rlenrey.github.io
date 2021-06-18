@@ -1,0 +1,36 @@
+.sectionfo {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(82, 43, 71);
+  color: rgb(172, 252, 217);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.myImg {
+  width: 90%;
+  border-radius: 25px;
+}
+.descriptionn {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#T {
+  flex-direction: column;
+}
+
+#Ive {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f6f7eb;
+}
+
+.logg {
+  height: 50px;
+  width: 50px;
+}
