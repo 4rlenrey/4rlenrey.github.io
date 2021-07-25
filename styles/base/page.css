@@ -13,12 +13,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}

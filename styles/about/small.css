@@ -19,18 +19,3 @@
   margin-top: 20px;
   font-size: 20px;
 }
-
-#T {
-  flex-direction: column;
-}
-
-#Ive {
-  font-size: 40px;
-  font-weight: bold;
-  color: #f6f7eb;
-}
-
-.logg {
-  height: 50px;
-  width: 50px;
-}

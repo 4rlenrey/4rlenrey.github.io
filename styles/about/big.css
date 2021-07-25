@@ -19,19 +19,3 @@
   font-size: 20px;
   width: calc(100% - 440px);
 }
-
-#T {
-  flex-direction: column;
-  height: 300px;
-}
-
-#Ive {
-  font-size: 40px;
-  font-weight: bold;
-  color: #f6f7eb;
-}
-
-.logg {
-  height: 50px;
-  width: 50px;
-}
