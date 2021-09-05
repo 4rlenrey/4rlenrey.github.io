@@ -5,6 +5,10 @@ body {
   font-family: monospace;
 }
 
+.link {
+  color: #63c0f5;
+}
+
 .vertically {
   display: flex;
   flex-direction: column;

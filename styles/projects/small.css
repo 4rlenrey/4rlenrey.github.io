@@ -4,15 +4,12 @@
   width: 100%;
   max-width: 500px;
   height: auto;
-  border: 3px solid #b5e853;
-}
-
-.link {
-  color: #63c0f5;
 }
 
 .projectContainer {
-  border: 4px dashed #b5e853;
+  border-radius: 25px;
+  border-left: 4px dashed #b5e853;
+  border-right: 4px dashed #b5e853;
   display: flex;
   margin-top: 50px;
   padding: 30px;

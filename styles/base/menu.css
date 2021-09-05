@@ -2,7 +2,6 @@
   list-style-type: none;
   display: block;
   padding: 10px;
-  background-color: #b5e850;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -10,8 +9,10 @@
 
 .Menu li a {
   text-decoration: none;
-  color: rgb(82, 43, 71);
+  color: #b5e850;
   font-size: 40px;
+  padding: 10px;
+  border-bottom: 4px solid #b5e853;
 }
 
 #MainMen {

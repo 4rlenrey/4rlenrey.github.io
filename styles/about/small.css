@@ -3,13 +3,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #b5e853;
-  color: rgb(82, 43, 71);
+  color: #b5e853;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 25px;
   margin-top: 30px;
-  flex-direction: column;
+  border-radius: 25px;
+  border-left: 4px dashed #b5e853;
+  border-right: 4px dashed #b5e853;
+  padding: 10px;
 }
 .myImg {
   width: 90%;
