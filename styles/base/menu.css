@@ -14,9 +14,3 @@
   padding: 10px;
   border-bottom: 4px solid #b5e853;
 }
-
-#MainMen {
-  animation-fill-mode: both;
-  animation-duration: 2s;
-  animation-name: appear;
-}

@@ -1,15 +1,28 @@
 .Menu {
   list-style-type: none;
   padding: 10px;
-  background-color:  #b5e850;
   display: flex;
   flex-direction: column;
   align-content: space-around;
   align-items: center;
+  background-color: #b5e850;
+}
+
+li {
+  width: 100%;
+  border-bottom: 4px solid #151515; 
+}
+li:last-child { 
+  border-bottom: none; 
+}
+
+.Menu li {
+  padding: 10px;
 }
 
 .Menu li a {
   text-decoration: none;
-  color: rgb(82, 43, 71);
+  color: #151515;
   font-size: 30px;
+  font-weight: 300;
 }

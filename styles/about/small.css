@@ -11,6 +11,7 @@
   border-left: 4px dashed #b5e853;
   border-right: 4px dashed #b5e853;
   padding: 10px;
+  flex-direction: column;
 }
 .myImg {
   width: 90%;
