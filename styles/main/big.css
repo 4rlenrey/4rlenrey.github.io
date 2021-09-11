@@ -1,13 +1,10 @@
 .myTitle {
-  position: absolute;
-  top: 50%;
-  animation-fill-mode: both;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -70%);
-  animation-delay: 2s;
-  animation-duration: 3s;
-  animation-name: appear;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .Accounts {
@@ -31,4 +28,15 @@
 #username {
   font-size: 100px;
   font-weight: 120;
+}
+@media (max-height: 440px) {
+  .myTitle{
+   margin-top: 50px;
+  }
+  #username{
+    font-size: 50px;
+  }
+  #title{
+    font-size: 40px;
+  }
 }
