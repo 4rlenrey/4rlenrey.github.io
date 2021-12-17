@@ -14,6 +14,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.horizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 .centered {
   margin-left: auto;
   margin-right: auto;
