@@ -25,7 +25,7 @@ const gameState = {
 const ringLinks = [
     { name: "Home", url: "pages/old.html", model: "../assets/Low_Poly_House.stl", size: 2.5 },
     { name: "Projects", url: "pages/projects.html", model: "../assets/monitorblend.stl", size: 2.5 },
-    { name: "About me", url: "pages/about.html", model: "../assets/Me.glb", size: 6, isGLB: true },
+    { name: "About me", url: "pages/about.html", model: "../assets/HEAD.glb", size: 6, isGLB: true },
     { name: "Notes", url: "../Notes/", model: "../assets/book.stl", size: 3 },
     { name: "CTF", url: "../CTF/", model: "../assets/gun.stl", size: 5 }
 ];
